@@ -12,11 +12,11 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # Load the pre-trained models
-model1 = joblib.load('models\DecisionTreeClassifier().joblib')
-model2 = joblib.load('models\LogisticRegression().joblib')
-model3 = joblib.load('models\MultinomialNB().joblib')
-model4 = joblib.load("models\SVC(kernel='linear').joblib")
-cv = joblib.load('models\count_vectorizer.joblib')
+model1 = joblib.load('models/DecisionTreeClassifier().joblib/')
+model2 = joblib.load('models/LogisticRegression().joblib/')
+model3 = joblib.load('models/MultinomialNB().joblib/')
+model4 = joblib.load("models/SVC(kernel='linear').joblib/")
+cv = joblib.load('models/count_vectorizer.joblib/')
 # Preprocessing functions
 # Create a function to preprocess the input text
 def preprocess_text(text):
