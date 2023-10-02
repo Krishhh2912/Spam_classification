@@ -1,0 +1,8 @@
+joblib
+streamlit
+numpy
+pandas
+nltk
+regex
+pandas
+scikit-learn
